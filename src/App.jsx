@@ -8,6 +8,7 @@ import Service from "./components/service";
 import Testimonials from "./components/Testimonials";
 import Video from "./public/line-waves.webm";
 import AnimatedComponent from "./components/animation"; 
+import BuildAI from "./components/welcome";
 
 function App() {
   // Create a reference for the scroll container
@@ -50,7 +51,7 @@ function App() {
               muted
               autoPlay
               playsInline
-              className="w-full z"
+              className="w-full -mt-[20rem] "
             ></video>
           </div>
 
@@ -69,6 +70,10 @@ function App() {
           {/* Animated Service */}
           <AnimatedComponent>
             <Service />
+          </AnimatedComponent>
+
+          <AnimatedComponent>
+            <BuildAI />
           </AnimatedComponent>
         </div>
       </div>
