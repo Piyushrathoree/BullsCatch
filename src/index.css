@@ -19,4 +19,21 @@
     color: white;
     
   }
+  /* index.css */
+.animated-text {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  /* index.css */
+
+/* The main container for locomotive */
+.scroll-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Important for smooth scrolling effect */
+  [data-scroll-container] {
+    transform: translate3d(0, 0, 0);
+  }
   
