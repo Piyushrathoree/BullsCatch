@@ -1,0 +1,22 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.gradient-button {
+    background: transparent;
+    border: 1px solid #a1a1aa; /* zinc-400 color */
+    color: #a1a1aa; /* zinc-400 text */
+    padding: 0.5rem 1.25rem;
+    border-radius: 9999px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .gradient-button:hover {
+    background: linear-gradient(to bottom, black, #2d3138); /* black to grey gradient */
+    color: white;
+    
+  }
+  
