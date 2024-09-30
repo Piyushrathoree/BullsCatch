@@ -36,8 +36,13 @@ const Section3 = () => {
         >
           <img
             src={circle}
-            className="w-[40vw] rounded-3xl relative"
+            className="w-[40vw] rounded-3xl z-10 relative"
             alt="Bull"
+          />
+          <img
+            src="https://img.freepik.com/premium-photo/financial-chart-graph-with-yellow-line-background_832479-2283.jpg"
+            className="absolute z-50 w-[90%] h-[90%] top-8 left-10 rounded-3xl"
+            alt=""
           />
         </motion.section>
 
@@ -48,22 +53,16 @@ const Section3 = () => {
         >
           {/* Heading */}
           <h2 className="mb-6 text-white p-2">
-            <span style={{ fontFamily: "Inter" }}>Welcome&nbsp;</span>
-            <span style={{ fontFamily: "Inter" }}>Traders&nbsp;</span>
-            <span style={{ fontFamily: "Inter" }}>to&nbsp;</span>
-            <br />
-            <span style={{ fontFamily: "Inter" }}>the&nbsp;</span>
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#F0C78E] to-[#E98F81] mr-3 p-2">
-              Era of trading&nbsp;
-            </span>
+          Scale Your Trading with Expert Insights
           </h2>
 
           {/* Subheading */}
           <p
-            className="text-[#b6b9bf] font-light text-2xl max-w-[344px] mb-5 mx-auto"
+            className="text-[#b6b9bf] font-light text-2xl w-[80%] mb-5 mx-auto"
             style={{ fontFamily: "DM Sans" }}
           >
-            We Believe in Nurturing Individual Potential
+            
+Access an advanced trading platform with real-time data and analytics designed to enhance your strategies. Utilize expert-level resources to maximize your trading potential and achieve greater results.
           </p>
 
           {/* Button */}

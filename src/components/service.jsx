@@ -33,9 +33,10 @@ const Service = () => {
               <img
                 src={circle}
                 alt="Background"
-                loading="lazy"
-                className="w-full h-full object-cover"
-              />
+               
+                className="w-full h-full object-cover z-10 "
+              /> 
+              <img src="https://img.freepik.com/premium-photo/image-stock-market-graph-black-background-generative-ai_97167-5619.jpg"  className='w-[90%] rounded-3xl h-[90%] absolute opacity-100 z-20' alt="" />
             </div>
           </div>
         </Animation3>

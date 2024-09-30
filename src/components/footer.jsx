@@ -14,7 +14,7 @@ const Footer = () => {
             <span className='text-white text-2xl'>BullsCatch</span>
           </div>
           <div>
-            <p class="mb-14 text-gray-200 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium dui convallis sagittis tempus mi viverra eget. Quisque justo, blandit orci.</p>
+            <p class="mb-14 text-gray-200 text-sm -mt-10">A person who know how to manage the risk during trading and ability to make profit with consistency in trading.</p>
             <p class="text-gray-400 text-sm">© Copyright 2024. All Rights Reserved by BullsCatch.</p>
           </div>
         </div>

@@ -4,9 +4,24 @@ import "../index.css";
 // asset
 import bg from "../public/testimonailBg.png";
 import userImg from "../public/imgUser.png";
+
 const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const scrollContainerRef = useRef(null);
+
+  // Array of Indian names and titles
+  const users = [
+    { name: "Arjun Sharma", title: "5⭐ Trader" },
+    { name: "Priya Patel", title: "Top Entrepreneur" },
+    { name: "Ravi Singh", title: "Investor" },
+    { name: "Sneha Verma", title: "Stock Expert" },
+    { name: "Kiran Kumar", title: "Crypto Trader" },
+    { name: "Ananya Gupta", title: "Market Analyst" },
+    { name: "Rajesh Iyer", title: "Risk Manager" },
+    { name: "Pooja Nair", title: "Financial Advisor" },
+    { name: "Manish Joshi", title: "Portfolio Manager" },
+    { name: "Suman Roy", title: "Technical Analyst" }
+  ];
 
   // Function to handle scrolling
   const handleScroll = () => {
@@ -41,28 +56,30 @@ const Testimonials = () => {
         className="h-[24rem] flex overflow-hidden whitespace-nowrap gap-8"
       >
         {/* Render original items */}
-        {[...Array(10)].map((_, index) => (
+        {users.map((user, index) => (
           <div
             key={index}
-            className="item h-[23rem] w-[25rem] rounded-2xl flex-shrink-0 relative "
+            className="item h-[23rem] w-[25rem] rounded-2xl flex-shrink-0 relative"
           >
-            <img src={bg}  alt={`testimonial ${index}`} />
-            <div className="userImg absolute top-[2.9rem] left-9 flex items-center gap-8 ">
+            <img src={bg} alt={`testimonial ${index}`} />
+            <div className="userImg absolute top-[2.9rem] left-9 flex items-center gap-8">
               <img
                 src={userImg}
-                className="w-[5rem] border-[1px] border-zinc-400 px-3 py-3 rounded-full bg-black opacity-30 "
+                className="w-[5rem] border-[1px] border-zinc-400 px-3 py-3 rounded-full bg-black opacity-30"
               />
-              <h3 className="text-4xl   bg-gradient-to-b from-gray-300 via-gray-400 to-gray-500 bg-clip-text text-transparent ">John Doe
-                <p className="text-lg text-gray-400">5⭐ Trader</p>
+              <h3 className="text-3xl text-white">
+                {user.name}
+                <p className="text-lg text-gray-400">{user.title}</p>
               </h3>
-        
             </div>
-            <div className="absolute  top-[35%] left-[48%] text-gray-400 cursor-pointer">↓</div>
+            <div className="absolute top-[35%] left-[48%] text-gray-400 cursor-pointer">
+              ↓
+            </div>
           </div>
         ))}
 
         {/* Render duplicates of the first 4 items for seamless looping */}
-        {[...Array(4)].map((_, index) => (
+        {users.slice(0, 4).map((user, index) => (
           <div
             key={`duplicate-${index}`}
             className="item h-[22rem] w-[25rem] rounded-2xl flex-shrink-0"
