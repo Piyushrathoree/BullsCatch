@@ -46,34 +46,43 @@ const Service = () => {
           <div className="w-[25rem] text-white space-y-8 flex flex-col gap-8 justify-center">
             <div className="flex flex-col gap-3">
               <h3 className="text-2xl text-white">
-                <span className="font-thin text-xl">✨</span> Understanding
+                <span className="font-thin text-xl">✨</span> Expertise and Experience
+
               </h3>
               <p className="text-gray-400 w-[22rem]">
-                Collaborates with hiring managers to understand specific job skills and requirements.
+              Experienced traders and financial experts drive our success in navigating complex markets.
+
               </p>
             </div>
             <div className="flex flex-col gap-3">
               <h3 className="text-2xl text-white">
-                <span className="font-thin text-xl">✨</span> Sourcing
+                <span className="font-thin text-xl">✨</span> Innovative Technology
+
               </h3>
               <p className="text-gray-400 w-[22rem]">
-                Searches candidates across the web and evaluates candidate profiles using your specific criteria.
+              We use advanced trading tools for fast, informed decisions.
+
+
               </p>
             </div>
             <div className="flex flex-col gap-3">
               <h3 className="text-2xl text-white">
-                <span className="font-thin text-xl">✨</span> Calibration
+                <span className="font-thin text-xl">✨</span> Collaborative Culture
+
               </h3>
               <p className="text-gray-400 w-[22rem]">
-                Adapts and learns from hiring manager feedback on the quality of sourced candidates.
+              Our team thrives in a collaborative, learning-focused environment.
+
+
               </p>
             </div>
             <div className="flex flex-col gap-3">
               <h3 className="text-2xl text-white">
-                <span className="font-thin text-xl">✨</span> Engagement
+                <span className="font-thin text-xl">✨</span> Commitment to Growth
+
               </h3>
               <p className="text-gray-400 w-[22rem]">
-                Sends multi-channel, personalized campaigns and cultivates relationships with candidates for current/prospective positions.
+              Innovation and continuous development keep us ahead in the industry.
               </p>
             </div>
           </div>
