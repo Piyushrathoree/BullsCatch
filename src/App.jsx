@@ -7,9 +7,16 @@ import Textbox from "./components/textAfterTest";
 import Service from "./components/service";
 import Testimonials from "./components/Testimonials";
 import Video from "./public/line-waves.webm";
-import AnimatedComponent from "./components/animation"; 
-import BuildAI from "./components/welcome";
 
+import BuildAI from "./components/welcome";
+import Section2 from "./components/section2";
+import Section3 from "./components/section3";
+import Footer from "./components/footer";
+
+
+//animation components
+import AnimatedComponent from "./components/animation";
+import Animation2 from "./components/heroAnimation";
 function App() {
   // Create a reference for the scroll container
   const scrollRef = useRef(null);
@@ -29,8 +36,8 @@ function App() {
   }, []);
 
   return (
-    <div ref={scrollRef} className="scroll-container">
-      <div className="h-[500rem] w-full bg-[#010101] overflow-hidden relative">
+    <div ref={scrollRef} className="scroll-container ">
+      <div className="h-[330rem] w-full bg-[#010101] overflow-hidden relative">
         <div className="overlay bg-black h-full w-full opacity-85 absolute">
           {/* Animated Header */}
           <AnimatedComponent>
@@ -41,9 +48,9 @@ function App() {
 
           <div className="h-screen w-screen ">
             {/* Animated TextBox */}
-            <AnimatedComponent>
+            <Animation2>
               <TextBox />
-            </AnimatedComponent>
+            </Animation2>
 
             <video
               src={Video}
@@ -56,9 +63,9 @@ function App() {
           </div>
 
           {/* Animated Testimonials */}
-          <AnimatedComponent>
+          <Animation2>
             <Testimonials />
-          </AnimatedComponent>
+          </Animation2>
 
           {/* Animated Textbox */}
           <AnimatedComponent>
@@ -68,13 +75,17 @@ function App() {
           <br />
 
           {/* Animated Service */}
-          <AnimatedComponent>
+          
             <Service />
-          </AnimatedComponent>
+          
 
-          <AnimatedComponent>
-            <BuildAI />
-          </AnimatedComponent>
+         <BuildAI />
+
+          <Section2 />
+          <Section3 />
+          <div className="h-[1px] mt-32  bg-gradient-to-r from-black via-white to-black w-full z-10 px-64 "></div>
+<AnimatedComponent ><Footer /></AnimatedComponent>
+          
         </div>
       </div>
     </div>

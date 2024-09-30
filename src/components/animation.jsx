@@ -23,7 +23,7 @@ const AnimatedComponent = ({ children }) => {
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
       variants={variants}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.8 }}
     >
       {children}
     </motion.div>

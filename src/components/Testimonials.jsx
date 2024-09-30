@@ -50,10 +50,10 @@ const Testimonials = () => {
             <div className="userImg absolute top-[2.9rem] left-9 flex items-center gap-8 ">
               <img
                 src={userImg}
-                className="w-[5rem] border-[1px] border-zinc-400 px-3 py-3 rounded-full bg-gradient-to-b from-gray-300 via-gray-400 to-gray-500 "
+                className="w-[5rem] border-[1px] border-zinc-400 px-3 py-3 rounded-full bg-black opacity-30 "
               />
               <h3 className="text-4xl   bg-gradient-to-b from-gray-300 via-gray-400 to-gray-500 bg-clip-text text-transparent ">John Doe
-                <p className="text-lg bg-gradient-to-b from-gray-300 via-gray-400 to-gray-500 bg-clip-text text-transparent">5⭐ Trader</p>
+                <p className="text-lg text-gray-400">5⭐ Trader</p>
               </h3>
         
             </div>

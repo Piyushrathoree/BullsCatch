@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
 
-const Header = () => {
+const Section1 = () => {
   return (
     <div className="w-full px-64 z-10  ">
       <div className="main-text h-2/4 relative flex flex-col pt-36">
@@ -40,4 +40,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Section1;
