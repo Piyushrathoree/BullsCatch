@@ -11,14 +11,13 @@ const header = () => {
             <div className="logo  w-16 pt-2">
               <img src={companyLogo} />
             </div>
-           
           </div>
           <div className="flex gap-5">
             <div className="flex justify-center items-center  h-screen">
-              <button className="text-sm relative  hover:border-2  rounded-full  hover:border-gray-700 hover:bg-black text-white font-medium flex items-center transition-all duration-300  py-3 px-5 hover:shadow-glow group">
+              <button className="text-sm relative  hover:border-2  rounded-full  hover:border-gray-700 hover:bg-black text-white font-medium flex items-center transition-all duration-100 ease-in-out  py-3 px-5 hover:shadow-glow group">
                 Home
                 <svg
-                  className="ml-3 w-4 h-4 transition-transform duration-300 group-hover:translate-x-2"
+                  className="ml-3 w-4 h-4 transition-transform duration-300   "
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -35,10 +34,10 @@ const header = () => {
             </div>
 
             <div className="flex justify-center items-center  h-screen">
-              <button className="text-sm relative  hover:border-2  rounded-full  hover:border-gray-700 hover:bg-black text-white font-medium flex items-center transition-all duration-300  py-3 px-5 hover:shadow-glow group">
+              <button className="text-sm relative  hover:border-2  rounded-full  hover:border-gray-700 hover:bg-black text-white font-medium flex items-center transition-all duration-100 ease-in-out  py-3 px-5 hover:shadow-glow group">
                 Career
                 <svg
-                  className="ml-3 w-4 h-4 transition-transform duration-300 group-hover:translate-x-2"
+                  className="ml-3 w-4 h-4 transition-transform duration-300 "
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -54,10 +53,10 @@ const header = () => {
               </button>
             </div>
             <div className="flex justify-center items-center  h-screen">
-              <button className="text-sm relative  hover:border-2  rounded-full  hover:border-gray-700 hover:bg-black text-white font-medium flex items-center transition-all duration-300  py-3 px-5 hover:shadow-glow group">
+              <button className="text-sm relative  hover:border-2  rounded-full  hover:border-gray-700 hover:bg-black text-white font-medium flex items-center transition-all duration-100 ease-in-out  py-3 px-5 hover:shadow-glow group">
                 SignUp
                 <svg
-                  className="ml-3 w-4 h-4 transition-transform duration-300 group-hover:translate-x-2"
+                  className="ml-3 w-4 h-4 transition-transform duration-300 "
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -74,7 +73,7 @@ const header = () => {
             </div>
 
             <div className="flex justify-center items-center  h-screen">
-              <button className="text-sm relative  border-2 rounded-full border-gray-700 bg-black text-white font-medium flex items-center transition-all duration-300 hover:shadow-[0_0_15px_3px_rgba(255,255,255,0.6)] py-3 px-5 hover:shadow-glow hover:border-gray-400 group">
+              <button className="text-sm relative  border-2 rounded-full border-gray-700 bg-black text-white font-medium flex items-center transition-all duration-100 hover:shadow-[0_0_15px_3px_rgba(255,255,255,0.6)] py-3 px-5 hover:shadow-glow hover:border-gray-400 group">
                 Login
                 <svg
                   className="ml-3 w-4 h-4 transition-transform duration-300 group-hover:translate-x-2"

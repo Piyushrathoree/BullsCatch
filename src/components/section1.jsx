@@ -17,7 +17,7 @@ const Section1 = () => {
 
         {/* Button */}
         <div className="flex justify-center items-center mt-[7rem]">
-          <button className="text-sm  py-3 px-5 border-2 rounded-full border-gray-700 bg-transparent text-white font-medium flex items-center transition-all duration-300 hover:shadow-[0_0_15px_5px_rgba(255,255,255,1)] hover:border-gray-400 group">
+          <button className="text-sm  py-3 px-5 border-2 rounded-full border-gray-700 bg-transparent text-white font-medium flex items-center transition-all duration-300 ease-in-out hover:shadow-[0_0_15px_5px_rgba(255,255,255,1)] hover:border-gray-400 group">
             Get Started
             <svg
               className="ml-3 w-4 h-4 transition-transform duration-300 group-hover:translate-x-2"
