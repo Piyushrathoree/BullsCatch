@@ -53,7 +53,7 @@ const Section3 = () => {
         >
           {/* Heading */}
           <h2 className="mb-6 text-white p-2">
-          Scale Your Trading with Expert Insights
+          Scale Your Trading with <span className="text-[#C98C72]">Expert Insights</span> 
           </h2>
 
           {/* Subheading */}
@@ -68,7 +68,7 @@ Access an advanced trading platform with real-time data and analytics designed t
           {/* Button */}
           <div className="flex justify-center items-center mt-10">
             <button className="text-sm relative border-2 rounded-full border-gray-700 bg-transparent text-white font-medium flex items-center transition-all duration-300 hover:shadow-[0_0_15px_3px_rgba(255,255,255,0.6)] py-3 px-5 hover:shadow-glow hover:border-gray-400 group">
-              Get Started
+             Learn More...
               <svg
                 className="ml-3 w-4 h-4 transition-transform duration-300 group-hover:translate-x-2"
                 xmlns="http://www.w3.org/2000/svg"
