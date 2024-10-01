@@ -10,12 +10,12 @@ const Footer = () => {
       <div class="w-full md:w-1/2 lg:w-5/12 p-6">
         <div class="flex flex-col justify-between h-full max-w-sm">
           <div class="mb-11 w-12 flex items-center gap-3">
-            <img src="https://bullscatchsecurities.com/wp-content/uploads/2024/09/cropped-3logoWhite-4-192x192.png" alt=" Logo" />
-            <span className='text-white text-2xl'>BullsCatch</span>
+            <img src="https://React securities.com/wp-content/uploads/2024/09/cropped-3logoWhite-4-192x192.png" alt=" Logo" />
+            <span className='text-white text-2xl'>React </span>
           </div>
           <div>
             <p class="mb-14 text-gray-200 text-sm -mt-10">A person who know how to manage the risk during trading and ability to make profit with consistency in trading.</p>
-            <p class="text-gray-400 text-sm">© Copyright 2024. All Rights Reserved by BullsCatch.</p>
+            <p class="text-gray-400 text-sm">© Copyright 2024. All Rights Reserved by React .</p>
           </div>
         </div>
       </div>
@@ -44,7 +44,7 @@ const Footer = () => {
           <div>
             <h3 class="mb-7 font-heading font-medium text-base text-gray-500 tracking-px">Contact Info</h3>
             <ul class="mb-6">
-              <li class="mb-4 font-heading font-medium text-base text-white">BullsCatch@mail.com</li>
+              <li class="mb-4 font-heading font-medium text-base text-white">React @mail.com</li>
               <li class="font-heading font-medium text-base text-white uppercase">+91 xxxx xxxx xx</li>
             </ul>
           </div>

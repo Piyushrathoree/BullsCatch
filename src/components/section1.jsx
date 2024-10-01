@@ -7,7 +7,7 @@ const Section1 = () => {
       <div className="main-text h-2/4 relative flex flex-col pt-36">
         {/* Hero text */}
         <div className="hero-text text-[5rem] bg-gradient-to-b from-gray-300 via-gray-400 to-gray-500 bg-clip-text text-transparent text-center">
-          BullsCatch Trading Floor
+          React Trading Floor
         </div>
 
         {/* Subheading */}
